@@ -1,8 +1,0 @@
-.toggle:checked ~ .flip-card__inner {
-    transform: rotateY(180deg);
-  }
-  
-  .toggle:checked ~ .flip-card__front {
-    box-shadow: none;
-  }
-  create table informacao(id int auto_increment,nome varchar(30),nomedaescola varchar(100),idade int,genero varchar(20),peso float,altura float,imc float, primary key(id));
